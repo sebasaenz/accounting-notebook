@@ -3,7 +3,6 @@
 ## Description
 REST API for transactions.
 
-## Instalación
-
 ### Run
+> npm install
 > npm start

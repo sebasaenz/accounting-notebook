@@ -1,0 +1,26 @@
+{
+  "name": "accounting-notebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd app && npm install && yarn serve",
+    "service": "cd service && npm install && npm start",
+    "start": "concurrently \"npm run client\" \"npm run service\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebasaenz/accounting-notebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebasaenz/accounting-notebook/issues"
+  },
+  "homepage": "https://github.com/sebasaenz/accounting-notebook#readme",
+  "dependencies": {
+    "concurrently": "^5.0.1"
+  }
+}
