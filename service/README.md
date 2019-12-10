@@ -4,5 +4,10 @@
 REST API for transactions.
 
 ### Run
-> npm install
-> npm start
+```
+ npm install
+```
+
+```
+npm start
+```

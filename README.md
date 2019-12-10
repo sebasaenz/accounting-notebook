@@ -13,5 +13,10 @@ GET /transactions/:id - Returns a transaction by id
 POST /transactions - Processes a new transaction
 
 ### Run
-> npm install
-> npm start
+```
+npm install
+```
+
+```
+npm start
+```
